@@ -1,0 +1,119 @@
+
+body {
+  background-color: #eee;
+}
+
+.body {
+  background-color: white;
+  border-radius: 32px;
+  padding: 13px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex-basis: 49%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  max-width: 49%;
+  padding: 3px 3px 45px 3px;
+  overflow: hidden;
+  border-radius: 17px;
+  border: 4px solid rgb(143, 196, 74);
+  margin: 5px;
+  position: relative;
+}
+
+.single-item {
+
+}
+
+.nav-container {
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 500px;
+}
+
+.image {
+  float: left;
+  width: 65%;
+}
+
+.flex-item ul,.single-item ul {
+  width: 35%;
+  font-size: 16px;
+  float: right;
+  list-style-type: none;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.add-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 11px;
+  background-color: #8fc44a;
+  color: white;
+}
+
+.add-button-single {
+  border-radius: 11px;
+  background-color: #8fc44a;
+  color: white;
+}
+
+.hide-button {
+  position: absolute;
+  bottom: 10px;
+  right: 135px;
+  border-radius: 11px;
+  background-color: #d3cc3d;
+  color: white;
+}
+
+.items-count {
+  position: absolute;
+  top: 2px;
+  display: inline-block;
+  right: 44px;
+  padding: 3px;
+  font-weight: bold;
+  color: white;
+  width: 35px;
+  height: 35px;
+  background-color: #e31232;
+  border-radius: 19px;
+}
+
+.none {
+  display: none;
+}
+
+.clear-cart {
+  float: right;
+  border-radius: 11px;
+  background-color: #8fc44a;
+  color: white;
+}
+
+/*not the best idea*/
+.cart .add-button,
+.cart .hide-button {
+  display: none;
+}

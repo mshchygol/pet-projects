@@ -14,7 +14,7 @@ const Navigation = React.createClass({
           <li><Link to="/">Home</Link></li>
           <li><Link to="phones">Phones</Link></li>
           <li><Link to="laptops">Laptops</Link></li>
-          <li><Link to="cart">Shop cart <span className={className}>{itemsCount}</span></Link></li>
+          <li><Link to="cart">Cart<span className={className}>{itemsCount}</span></Link></li>
         </ul>
       </div>
     )

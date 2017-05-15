@@ -14,3 +14,6 @@ pids
 # Dependency directories
 node_modules
 jspm_packages
+
+.DS_Store
+.idea/

@@ -9,7 +9,7 @@ const Summary = React.createClass({
     let itemsCount = this.props.cart.length;
     return (
       <div>
-        Currently you have {itemsCount} items in the cart.<br/>
+        Currently you have {itemsCount} items in your cart.<br/>
         Total cost: {summ}$
       </div>
     )
